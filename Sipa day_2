@@ -1,0 +1,16 @@
+package javaapplication99;
+import java.util.Scanner;
+
+      public class JavaApplication99 {
+
+public static void main(String[ ] args) {
+
+            Scanner input = new Scanner(System.in);
+            System.out.println("Masukkan nama Depan anda"); String namal = input.nextLine();
+            System.out.println("Masukkan nama Belakang anda");
+            String nama2 = input.nextLine();
+            System.out.println("Nama anda adalah");
+             System.out.println(namal+nama2);
+              
+         }
+ }
